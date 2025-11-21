@@ -1,0 +1,5 @@
+/accounts/migrations/
+/api/migrations/
+/management/migrations/
+/compmaster_web/.idea/
+/.env
