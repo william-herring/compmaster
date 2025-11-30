@@ -10,6 +10,7 @@ class User(AbstractUser):
     last_name = models.CharField(max_length=50, null=True)
     is_delegate = models.BooleanField(default=False)
     profile_picture = models.CharField(max_length=500)
+    username = None
 
     objects = CustomUserManager()
 

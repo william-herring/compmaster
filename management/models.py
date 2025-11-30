@@ -14,6 +14,7 @@ class Round(models.Model):
     round_number = models.IntegerField()
     is_final = models.BooleanField(default=False)
     event = models.CharField(max_length=10)
+    competition = models.ForeignKey(Competition, on_delete=models.CASCADE)
 
 class Group(models.Model):
     label = models.CharField(max_length=20, default="Unlabelled group")
