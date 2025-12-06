@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    padding: 24px;
+}
+
+.action-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.action-label {
+    margin-top: 16px;
+    font-size: 32px;
+    font-weight: 600;
+    color: #454545;
+}
+
+.action-context {
+    margin-top: 0;
+}
+
+.action-button {
+    padding: 10px 14px;
+    display: flex;
+    border-radius: 6px;
+    background: #1447e6;
+    border: none;
+    align-items: center;
+    font-size: 18px;
+    color: #ffff;
+    width: fit-content;
+}
+
+.wca-logo {
+    padding: 0;
+    margin-right: 8px;
+}

@@ -1,0 +1,21 @@
+body {
+    font-family: 'Inter', 'sans-serif';
+}
+
+a {
+    text-decoration: none;
+    color: #454545;
+}
+
+footer {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 6px;
+    background: white;
+    border-radius: 6px;
+}
+
+.footer-item {
+    margin-right: 4px;
+}

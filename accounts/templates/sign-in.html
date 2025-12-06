@@ -1,0 +1,27 @@
+{% extends 'base_generic.html' %}
+{% load static %}
+
+{% block head %}
+    <link rel="stylesheet" href="{% static 'accounts/styles/sign-in.css' %}">
+{% endblock %}
+
+{% block title %}Sign in{% endblock %}
+{% block content %}
+    <div class='main'>
+        <div class="main-content">
+            <div class="action-header">
+                <img src="{% static 'images/logo.svg' %}" alt="image" width="64px">
+                <p class="action-label">Sign in with your WCA account</p>
+            </div>
+            <div class="action-content">
+                <p class="action-context">
+                    If you are a delegate, you can sign in to Compmaster with your WCA account.
+                </p>
+                <a class="action-button" href="#">
+                    <img class="wca-logo" src="{% static 'images/wca-white.svg' %}" alt="image" width="32px">
+                    Sign in
+                </a>
+            </div>
+        </div>
+    </div>
+{% endblock %}
