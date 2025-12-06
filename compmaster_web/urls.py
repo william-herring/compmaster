@@ -15,10 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from accounts.views import SignInPageView
 
 urlpatterns = [
-    path('sign-in/', SignInPageView.as_view()),
+    path('sign-in/', include('accounts.urls')),
     path('admin/', admin.site.urls),
     path('api/', include('api.urls')),
 ]
