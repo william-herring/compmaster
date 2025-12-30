@@ -42,6 +42,10 @@ body {
     width: fit-content;
 }
 
+.action-button:hover {
+    background: #173ec8;
+}
+
 .wca-logo {
     padding: 0;
     margin-right: 8px;
